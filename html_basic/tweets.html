@@ -2,30 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My First HTML Page</title>
+    <title>Tweets Page</title>
 </head>
 <body>
-    <header>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="tweets.html">Tweets</a></li>
-    </ul>
+<header>
+    <h1>My Tweets Page</h1>
 </header>
-
 <main>
     <article>
-        <!-- Embedded tweet goes here -->
-        <p>Embedded tweet placeholder. Replace this with Twitter embed code.</p>
+        <h2>Latest Tweet</h2>
+        <!-- Embedded tweet -->
+        <blockquote class="twitter-tweet">
+            <p lang="en" dir="ltr">This is a placeholder tweet</p>&mdash; Peter Iguanya (@peteriguanya)
+            <a href="https://twitter.com/peteriguanya/status/1234567890">Nov 16, 2025</a>
+        </blockquote>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
         <!-- Link back to homepage -->
-        <a href="index.html">Back to homepage</a>
+        <p><a href="index.html">Back to homepage</a></p>
     </article>
-
     <aside>
         <p>placeholder to add comment thread later</p>
     </aside>
 </main>
-
 <footer>
     <p>Made by Peter Iguanya - <a href="https://example.com" target="_blank">here</a></p>
 </footer>
